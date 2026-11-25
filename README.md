@@ -2,6 +2,8 @@
 
 A 4-digit BCD electronic lock built on a custom 16-bit Harvard-architecture processor in **Logisim-evolution 5.0.0**.
 
+![Main Circuit](images/main.png)
+
 ## Architecture
 * **ALU_16bit:** 16-bit `ADD`, `SUB`, `AND`, `OR`.
 * **Data_Path:** Two 16-bit registers (`Reg_A`, `Reg_B`) + ALU.
@@ -31,6 +33,5 @@ A 4-digit BCD electronic lock built on a custom 16-bit Harvard-architecture proc
 4. Press **Reset** (top-left) to save the code to `RAM[0]`.
 5. Change digits to test: matching code lights **Unlock**; mismatch lights **Lock**.
 
-## Authors
-* Phan Van Duc, Hoang Van An, Nguyen Truong An — Class K26-DT3, Hanoi Open University.
-* **Supervisor:** MSc. Pham Tien Huy.
+## Author
+* Phan Van Duc
